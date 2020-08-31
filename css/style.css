@@ -450,8 +450,10 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    transform: none;
+    transform: unset !important;
     position: relative;
+    transition: none;
+    -webkit-transition: none;
     width: 100%;
   }
 
@@ -459,12 +461,19 @@ footer {
     width: 100%;
     margin-left: 0;
     transition: none;
+    -webkit-transition: none;
+  }
+
+  .navbar a:hover {
+    transform: none;
   }
 
   .navbar i {
     margin-left: 0.5rem;
     margin-top: 0.1rem;
     font-size: 1rem;
+    transition: none;
+    -webkit-transition: none;
     float: none;
   }
 
