@@ -521,7 +521,10 @@ footer {
   }
 
   .logo a {
-    padding: 1rem;
+    color: var(--white);
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem 0.6rem 1rem;
+    background-color: #ba81cc;
   }
 }
 
