@@ -1,4 +1,6 @@
 const mySwiper = new Swiper('.swiper-container', {
+  observer: true,
+  observeParents: true,
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
